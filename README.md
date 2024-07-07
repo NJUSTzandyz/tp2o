@@ -1,1 +1,1 @@
-# Amazing Combinatorial Creation: Acceptable Swap-Sampling for Text-to-Image Generation
+# TP2O: Creative Text Pair-to-Object Generation using Balance Swap-Sampling
