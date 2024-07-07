@@ -4,6 +4,99 @@ body {
     font-size: 18px;
 }
 
+
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 800px; /* 限制最大宽度 */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.centered-content {
+  text-align: center;
+}
+
+.publication-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.publication-authors {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.link-block {
+  display: inline-block;
+}
+
+.external-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 25px;
+  background-color: #333;
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.external-link .icon {
+  margin-right: 8px;
+}
+
+.external-link:hover {
+  background-color: #555;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.teaser-image {
+  width: 80%;
+}
+
+.is-rounded {
+  border-radius: 25px;
+}
+
+.is-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.is-normal {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
 .container {
     margin: 0 auto;
     width: 100%;
